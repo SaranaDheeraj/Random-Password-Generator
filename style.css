@@ -51,6 +51,7 @@ body {
   background-color: white;
   border-radius: 0 5px 5px 0;
   color: #38d9a9;
+  cursor: pointer;
 }
 
 button {
@@ -63,6 +64,7 @@ button {
   color: white;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 button svg {
