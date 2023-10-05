@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #134c82;
+  color: #fff;
+  background-image: url("https://images.unsplash.com/photo-1634979149798-e9a118734e93?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cGFzc3dvcmR8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=600&q=60");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width: 90%;
+  max-width: 700px;
+  margin-top: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container h1 span {
+  color: #12b886;
+}
+
+.container h1 {
+  margin-bottom: 30px;
+}
+
+.display {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.display input {
+  border: 0;
+  outline: 0;
+  flex: 1;
+  padding: 10px 20px;
+  font-size: 25px;
+  border-radius: 5px 0 0 5px;
+  color: #343a40;
+}
+
+.display svg {
+  background-color: white;
+  height: 100%;
+  border-radius: 0 5px 5px 0;
+  color: #38d9a9;
+}
+
+button {
+  border: none;
+  outline: none;
+  font-size: 22px;
+  padding: 10px 20px;
+  border-radius: 3px;
+  background-color: #38d9a9;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+button svg {
+  margin-right: 5px;
+}
